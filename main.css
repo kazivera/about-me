@@ -1,0 +1,70 @@
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+/* Pozicionálás */
+
+.profile-card {
+  width: 480px;
+  max-width: calc(100vw - 10px);
+  background-color: hsla(0, 0%, 100%, .5);
+  border-radius: 4px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 10px;
+}
+
+.head, .list {
+  text-align: center;
+}
+
+.list {
+  margin-top: 10px;
+}
+
+.profilfoto {
+  width: 160px;
+  height: 200px;
+  border-radius: 20%;
+}
+
+/* Contact links */
+
+ul {
+  list-style-type: none;
+}
+
+h1 {
+  margin-top: 30px;
+}
+
+.about {
+  margin: 20px;
+  text-align: justify;
+}
+
+
+img {
+  padding: 1px;
+  background-color: #666;
+}
+
+.content {
+  border-top: 1px solid hsla(0, 0%, 10%, .8);
+}
+
+img:hover {
+  transform: scale(2.2);
+  transition: all 0.5s ease-in-out;
+}
