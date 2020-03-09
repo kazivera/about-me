@@ -7,6 +7,10 @@
   font-size: 100%;
 }
 
+h1 {
+    font-style: italic;
+}
+
 /* Pozicionálás */
 
 .profile-card {
